@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For Anu 💜</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #e6d9ff, #f5e9ff);
+      color: #4b2c5e;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    section {
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    .heart {
+      font-size: 2em;
+      animation: float 2s infinite;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+
+    .box {
+      background: rgba(255, 255, 255, 0.6);
+      border-radius: 20px;
+      padding: 30px;
+      margin: 30px auto;
+      max-width: 800px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    button {
+      background: #b57edc;
+      border: none;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.1em;
+      border-radius: 30px;
+      cursor: pointer;
+      margin: 10px;
+      transition: transform 0.2s;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+      background: #9f6cc5;
+    }
+
+    #answer {
+      display: none;
+      font-size: 2em;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section>
+    <h1>Hey Anu 💜</h1>
+    <p class="heart">💜💜💜</p>
+    <p>
+      I made this little website just for you…  
+      I'm not skilled like you are . but hope you like this guru 
+    </p>
+  </section>
+
+  <section class="box">
+    <h2>Our Time Together 🌙</h2>
+    <p>
+      It’s been <b>2 months and 5 days</b> since you came into my life  
+      (as of 8th February), and somehow it already feels so special and also feels like we've known each other since ages (we do).
+    </p>
+  </section>
+
+  <section class="box">
+    <h2>Our Memories ✨</h2>
+    <p>
+      Night walks felt peaceful (pre and post dating era),  
+      playing badminton and taunting other person in between points,  
+      our first date that I’ll always remember…  
+    </p>
+  </section>
+
+  <section class="box">
+    <h2>What I Love About You 💜</h2>
+    <p>
+      I love your maturity.  
+      I love how sweet you are.
+      The way you understand things, the way you care like  
+      i just fall in love with you daily .
+      The main thing , i love how round you are (myy cutiee potatoeeeee)
+    </p>
+  </section>
+
+  <section class="box">
+    <h2>So Anu… </h2>
+    <p>
+      Todya is propose day isms , so I'd like to ask you whether you are interesated in being my girlfriend? (one slap is coming straight if you say no).
+    </p>
+
+    <h1>Interested in being gf of this retard ? 💜</h1>
+
+    <button onclick="sayYes()">YES 💖</button>
+    <button onclick="sayYes()">Obviously YES 😌</button>
+
+    <div id="answer">
+      💜 I know guru 💜 <br>
+      — Yours, Shambhya
+    </div>
+  </section>
+
+  <script>
+    function sayYes() {
+      document.getElementById("answer").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
